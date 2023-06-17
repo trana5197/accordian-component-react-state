@@ -18,6 +18,7 @@ const faqs = [
 export default function App() {
   return (
     <div>
+      <h1>Accordian Component</h1>
       <Accordian data={faqs} />
     </div>
   );
